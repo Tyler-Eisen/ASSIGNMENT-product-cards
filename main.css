@@ -1,0 +1,57 @@
+
+
+.card{
+  width:27%;
+  height: 50%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: lightblue; 
+ text-align: center;
+ 
+ 
+}
+
+.description{
+  text-align: justify;
+}
+
+.availability{
+  background-color: grey;
+  color: yellow;
+}
+
+.specs{
+  text-align: left;
+
+}
+.size{
+  text-align: left;
+}
+
+.weight{
+  text-align: left;
+
+}
+
+.validity{
+  text-align: left;
+}
+.price{
+  text-align: left;
+}
+
+p {
+
+  padding : 0;
+  margin : 0;
+  line-height : 20px;
+}
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
